@@ -12,10 +12,10 @@ end
 
 endmodule
 module tsg4(
-	input [3:0]in, state, clk,
+	input [3:0]in,
+	input state, clk,
 	output [3:0]out
 );
-
 	reg [3:0] out;
 
 	always @(in or state or clk) begin
