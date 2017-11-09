@@ -11,7 +11,6 @@ assign out = in[3];
 endmodule
 
 module busTB(
-
 );
 
 reg [3:0] in;
